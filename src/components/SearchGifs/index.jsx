@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "wouter";
+import './styles.css';
 
 function SearchGifs() {
     const [keyword, setKeyword] = useState('');
@@ -16,8 +17,9 @@ function SearchGifs() {
   
     return (
       <form onSubmit={handleSubmit}>
-        <label>GIF's searcher:
-          <br />
+        <label>GIF's searcher: </label>
+        <br />
+        <div className="searcher">
           <input 
             type="text" 
             value={keyword}
@@ -25,7 +27,7 @@ function SearchGifs() {
             onChange={handleChange}
           />
           <button>Search</button>
-        </label>
+        </div>
       </form>
     )
 }

@@ -1,0 +1,17 @@
+input{
+    margin: 20px auto;
+    height: 30px;
+    border: none;
+}
+
+button {
+    height: 32px;
+    border: none;
+    background-color: rgb(105, 160, 165);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 140, 226);
+    color: #eee;
+  }
