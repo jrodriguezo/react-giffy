@@ -7,17 +7,10 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 16px;
 }
 
-.App-content h1 {
-  width: 100%;
-  background-color: #13151a;
-  margin-top: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
