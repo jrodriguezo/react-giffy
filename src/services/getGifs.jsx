@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 function getGifs({keyword = 'rick'} = {}) {
     const API_URL = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.REACT_APP_API_KEY}=${keyword}&limit=10&offset=0&rating=g&lang=es`
 
